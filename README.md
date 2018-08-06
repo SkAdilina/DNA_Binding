@@ -1,5 +1,4 @@
 # JTB-DNA_Binding
-<br /> <br />
 
 # The Datasets
 <br />
@@ -9,7 +8,6 @@ The datasets folder contains all the feature for the experiments. All the featur
 
 
 # The Codes
-<br />
 
 ######  Grouped Feature Selection 
 The coding of this technique was done manually and spearately for different combinations of features. We carried out all the experiemnts and stored the results in the "Grouped_Feature_Selection_All_Results.xlsx" files. After carrying out all the experiemnts we found out the best group combination and the tested it on the train dataset. The "Grouped_Feature_Selection_Final_GCEF_Test_Train.py" contains that final code where we calculated both the train and the test results.
