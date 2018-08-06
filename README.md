@@ -1,4 +1,5 @@
-# JTB-DNA_Binding
+# Classification of DNA_Binding
+## Using Feature Selection on Sequence Based Features
 
 # The Datasets
 The datasets folder contains all the feature for the experiments. All the features need to unzipped and kept in the datasets folder for the codes to run properly.
