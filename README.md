@@ -15,3 +15,29 @@ The coding of this technique was done manually and spearately for different comb
 In this technique we ranked the features using Random Forest classifier and identified the least important feature and removed it from the train dataset. We ran the loop for 32620 times as we have that many features and chose the feature set with the best accuracy. After choosing the optimal feature set we we tested it on the test dataset.
 * "**Recursive_Feature_Selection.py**" contains the entire code for recursive feature selecton.
 * "**Recursive_Best_Feature_Set_Train_Test.py**" contains the code where we only ran the code till the optimal set of features was reached and then tested the feature set on the testing data.
+
+######  Classifiers Used
+The following classifiers have been used in the experiements:
+* Random Forest
+* Extra Tree Classifier
+* Support Vector Machine
+* Logistic Regression
+* AdaBoost
+* Decision Tree
+* Gaussian Naive Bayes
+* K-Nearest Neighbour
+* Linear Discriminant Analysis
+
+
+######  Performance Metrics
+The classifiers were evaluated using the following metrics:
+* Accuracy
+* Sensitivity or Recall
+* Specificity
+* Mathews correlation coefficient (MCC)
+* area under receiver operating characteristic curve (auROC)
+* area under precision recall curve (auPR)
+
+
+
+
